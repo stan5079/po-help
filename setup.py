@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 from version import __version__
 
 setup(
     name='po-help',
     version=__version__,
-    packages=['po_help'],
+    packages=find_packages(),
     url='https://github.com/stan5079/po-help',
     license='GNU General Public License v3.0',
     author='Stan Mertens',
