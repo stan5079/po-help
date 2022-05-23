@@ -12,6 +12,6 @@ setup(
     author_email='',
     description='A small helper repository for handling .po files.',
     install_requires=[
-        'googletrans==3.1.0a0'
+        'googletrans-py==4.0.0'
     ]
 )
